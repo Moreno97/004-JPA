@@ -59,3 +59,7 @@ El método **"POST"** realiza lo siguiente:
 Entonces, el usuario ya podrá consultar las puntuaciones (al menos las personales) cuando haya realizado mínimo una partida.
 
 Finalmente, si el usuario decide salir de la sesión (**LOGOUT**), se redirecciona a una web que informa al usuario de que ha salido de la sesión. Se hace mediante la redirección a "LogoutServlet", que eliminará todos los datos de cookies asociados a ese usuario mediante el método "GET".
+
+
+###IMPORTANTE
+Cuando se despliega la aplicación por primera vez, la base de datos es creada (es decir, las tablas correspondientes que manejarán los datos). De esto se encarga el **PERSISTANCE** en Java, dónde se puede elegir si crearlas, eliminar y crear o no hacer nada.
