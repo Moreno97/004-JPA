@@ -1,4 +1,4 @@
-# 004-JPA
+# Lander-Game-ServletWithJava
 Servlet with Java, Lander Game.
 
 ## README
@@ -21,7 +21,7 @@ Si el usuario no se encuentra registrado, deberá hacerlo para poder acceder al 
   * Password verification
   * Email
    
-######**Si el usuario introduce la segunda contraseña de forma errónea, la página mostrará un mensaje de error y recargará una web con el mensaje informativo, haciendo posible volver a intentarlo. De igual manera, un usuario deberá introducir un email verídico (cumpliendo el estándar HTML5, PATTERN).**
+**Si el usuario introduce la segunda contraseña de forma errónea, la página mostrará un mensaje de error y recargará una web con el mensaje informativo, haciendo posible volver a intentarlo. De igual manera, un usuario deberá introducir un email verídico (cumpliendo el estándar HTML5, PATTERN).**
 
 Una vez registrado el usuario, se mandan los datos al servlet "RegisterServlet" mediante el método "POST".
 
@@ -61,7 +61,7 @@ Entonces, el usuario ya podrá consultar las puntuaciones (al menos las personal
 Finalmente, si el usuario decide salir de la sesión (**LOGOUT**), se redirecciona a una web que informa al usuario de que ha salido de la sesión. Se hace mediante la redirección a "LogoutServlet", que eliminará todos los datos de cookies asociados a ese usuario mediante el método "GET".
 
 
-###IMPORTANTE
-######**Cuando se despliega la aplicación por primera vez, la base de datos es creada (es decir, las tablas correspondientes que manejarán los datos). De esto se encarga el PERSISTANCE en Java, dónde se puede elegir si crearlas, eliminar y crear o no hacer nada.**
+IMPORTANTE
+**Cuando se despliega la aplicación por primera vez, la base de datos es creada (es decir, las tablas correspondientes que manejarán los datos). De esto se encarga el PERSISTANCE en Java, dónde se puede elegir si crearlas, o eliminarlas.**
 
-######**Los services de JPA se puede generar automáticamente, suponiendo de esta manera un ahorro de tiempo y trabajo muy grande.**
+**Los services de JPA se puede generar automáticamente, suponiendo de esta manera un ahorro de tiempo y trabajo muy grande.**
