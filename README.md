@@ -62,6 +62,7 @@ Finalmente, si el usuario decide salir de la sesión (**LOGOUT**), se redireccio
 
 
 IMPORTANTE
+
 **Cuando se despliega la aplicación por primera vez, la base de datos es creada (es decir, las tablas correspondientes que manejarán los datos). De esto se encarga el PERSISTANCE en Java, dónde se puede elegir si crearlas, o eliminarlas.**
 
 **Los services de JPA se puede generar automáticamente, suponiendo de esta manera un ahorro de tiempo y trabajo muy grande.**
